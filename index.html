@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Un remake du célèbre mini-jeu de l'emblématique jeu de tchat 2d Blablaland."
+    />
+    <link rel="stylesheet" href="./src/style/index.css" />
+    <title>Blablataille Navale - HTML5</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <img src="src/img/WEB/titre.png" alt="Logo du jeu" />
+        </div>
+        <div class="boulets">
+          <img
+            src="src/img/WEB/boulet1.png"
+            alt="boulet1"
+            class="boulet"
+            id="boulet1"
+          />
+          <img
+            src="src/img/WEB/boulet2.png"
+            alt="boulet2"
+            class="boulet"
+            id="boulet2"
+          />
+        </div>
+        <section class="header-information">
+          <h2>Un "Touché Coulé" façon "Blablaland"</h2>
+          <p>Place tes bateaux, tire et coule ceux de ton adversaire !</p>
+        </section>
+      </div>
+    </header>
+    <main>
+      <section class="banner">
+        <div class="container">
+          <div class="banner-image">
+            <img
+              src="./src/img/WEB/image-jeu.png"
+              alt="Image du jeu"
+              class="image-jeu"
+            />
+          </div>
+          <div class="banner-information">
+            <p>Jeu Multi-Joueurs sur navigateur</p>
+            <p>
+              Crée une partie en cliquant ci-dessous <br />
+              et invite un joueur à jouer avec toi !
+            </p>
+            <div class="button-partie">
+              <img
+                src="./src/img/WEB/creer-une-partie.png"
+                alt="Creer une partie"
+              />
+              <a href="#">Créer une partie</a>
+            </div>
+          </div>
+        </div>
+        <div class="missiles">
+          <img src="src/img/WEB/fusee.png" alt="Missile" class="missile" />
+          <img src="src/img/WEB/fusee.png" alt="Missile" class="missile" />
+          <img src="src/img/WEB/fusee.png" alt="Missile" class="missile" />
+          <img src="src/img/WEB/fusee.png" alt="Missile" class="missile" />
+          <img src="src/img/WEB/fusee.png" alt="Missile" class="missile" />
+        </div>
+      </section>
+      <section class="features">
+        <div class="container">
+          <div class="feature">
+            <h2>Création de partie</h2>
+            <div class="feature-information">
+              <div class="feature-image">
+                <img
+                  src="src/img/WEB/partie.png"
+                  alt="Thumbail d'une partie"
+                  class="feature-thumbnail"
+                />
+              </div>
+              <div class="feature-description">
+                <p>
+                  Après avoir cliqué sur le bouton <br />
+                  "Créer une partie" ci-dessus,<br />
+                  envoie le lien à quelqu'un pour<br />
+                  qu'il te rejoigne. Validez ensuite<br />
+                  en cliquant sur le bouton du bas<br />
+                  et le jeu se lancera.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="feature">
+            <h2>Le placement</h2>
+            <div class="feature-information">
+              <div class="feature-image">
+                <img
+                  src="src/img/WEB/pret.png"
+                  alt="Thumbail du placement"
+                  class="feature-thumbnail"
+                />
+              </div>
+              <div class="feature-description">
+                <p>
+                  La première étape est de déplacer vos <br />
+                  bateaux sur le quadrillage par un glisser<br />
+                  déposer avec votre souris. Vous pouvez<br />
+                  faire une rotation en cliquant sur les flèches<br />
+                  aux extrémités des bateaux.<br />
+                  Dès que vous avez bien positionné tout ça, <br />
+                  vous cliquerez sur le bouton "<span
+                    style="text-transform: uppercase"
+                    >prêt</span
+                  >" !
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="feature">
+            <h2>Le jeu</h2>
+            <div class="feature-information">
+              <div class="feature-image">
+                <img
+                  src="src/img/WEB/le-jeu.png"
+                  alt="Thumbail du jeu"
+                  class="feature-thumbnail"
+                />
+              </div>
+              <div class="feature-description">
+                <p>
+                  Chacun votre tour, vous cliquerez<br />
+                  sur une case, une missile s'abbatera<br />
+                  peut-être alors sur un<br />
+                  des bâteaux de votre adversaire !<br />
+                  Ou bien il finira à l'eau.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="feature">
+            <h2>Les bonus</h2>
+            <div class="feature-information">
+              <div class="feature-image">
+                <img
+                  src="src/img/WEB/les-bonus.png"
+                  alt="Thumbail des bonus"
+                  class="feature-thumbnail"
+                />
+              </div>
+              <div class="feature-description">
+                <p>
+                  <span style="text-transform: uppercase">à</span> chaque tour,
+                  un tir peut déclencher<br />
+                  l'obtention d'un bonus POWA.
+                  <span style="text-transform: uppercase">à</span> votre<br />
+                  prochain tour vous pourrez tirer de 2<br />
+                  12 cases d'un coup ! Découvrez les tous !
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <p>
+          Blablataille Navale BBL - by Blidnight 20201 <br />
+          Jeu créé à l'origine par Niveau99 - Blablaland 2017<br />
+          <a href="#">Contant</a> | <a href="#">Mentions légales</a>
+        </p>
+      </div>
+    </footer>
+
+    <div class="fixed-background"></div>
+  </body>
+</html>
