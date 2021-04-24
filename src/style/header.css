@@ -1,0 +1,114 @@
+header,
+main,
+footer {
+  background-color: #202225;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo {
+  justify-content: center;
+}
+
+.logo {
+  background-image: url(../img/WEB/header-fond.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 0;
+}
+
+.logo,
+section.banner {
+  -webkit-mask-image: url(../img/WEB/header-masque.svg);
+  -webkit-mask-size: cover;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  -o-mask-image: url(../img/WEB/header-masque.svg);
+  -o-mask-size: cover;
+  -o-mask-repeat: no-repeat;
+  -o-mask-position: center;
+  mask-image: url(../img/WEB/header-masque.svg);
+  mask-size: cover;
+  mask-repeat: no-repeat;
+  mask-position: center;
+}
+
+.logo img {
+  width: 80%;
+  padding: 20px 0px;
+  margin: 0 auto;
+  display: block;
+}
+
+.logo-image {
+  width: 90%;
+  display: inline-block;
+}
+
+.logo {
+  height: 120px;
+}
+
+header .container {
+  position: relative;
+}
+
+header .boulet {
+  top: 0px;
+  position: absolute;
+}
+
+#boulet1,
+#boulet2 {
+  width: 60px;
+}
+
+#boulet1 {
+  left: 20px;
+  z-index: 0;
+}
+
+#boulet2 {
+  right: 15px;
+  top: 30px;
+  z-index: 3;
+}
+
+.header-information {
+  text-align: center;
+  padding: 10px;
+}
+
+.header-information h2 {
+  font-size: 20px;
+  margin-top: 10px;
+  color: #0185ff;
+  text-align: inherit;
+  line-height: 0.95em;
+}
+
+.header-information p {
+  font-size: 11px;
+  line-height: 0.95em;
+  color: white;
+}
+
+@media screen and (min-width: 320px) {
+  .logo img {
+    width: auto;
+    height: 80px;
+  }
+}
+
+@media screen and (min-width: 550px) {
+  .logo img {
+    width: 60%;
+    height: auto;
+  }
+  .logo {
+    height: auto;
+  }
+}
