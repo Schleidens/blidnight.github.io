@@ -224,7 +224,7 @@ section.features {
 }
 
 section.features h2 {
-  font-size: 1.5em;
+  font-size: 24px;
   color: #0185ff;
   text-align: center;
 }
@@ -234,9 +234,13 @@ section.features h2 {
   flex-direction: column;
 }
 
+.feature {
+  margin-bottom: 20px;
+}
+
 .feature-image {
   width: 40%;
-  margin: 30px auto 0px auto;
+  margin: 0px auto 0px auto;
 }
 
 .feature-description {
