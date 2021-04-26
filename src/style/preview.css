@@ -8,7 +8,7 @@ section.preview {
   overflow: hidden;
   position: relative;
   padding: 0px 20px;
-  min-height: 200px;
+  min-height: 100px;
 }
 
 section.preview .container h2 {
@@ -41,11 +41,13 @@ section.preview .container h2 {
 
 .preview-boxes::-webkit-scrollbar-track {
   background: gray;
+  visibility: hidden;
   border-radius: 20px;
 }
 
 .preview-boxes::-webkit-scrollbar-thumb {
   background: white;
+  visibility: hidden;
   border-radius: 20px;
 }
 
@@ -60,12 +62,26 @@ section.preview .container h2 {
 }
 
 @media screen and (min-width: 520px) {
+  section.preview {
+    min-height: 140px;
+  }
   .preview-box {
     width: 120px;
     height: 120px;
   }
   .preview-boxes {
     height: 120px;
+  }
+  .preview-boxes::-webkit-scrollbar-track {
+    background: gray;
+    visibility: visible;
+    border-radius: 20px;
+  }
+
+  .preview-boxes::-webkit-scrollbar-thumb {
+    background: white;
+    visibility: visible;
+    border-radius: 20px;
   }
 }
 
@@ -82,5 +98,18 @@ section.preview .container h2 {
   }
   .preview-boxes {
     height: 160px;
+  }
+  .preview-boxes::-webkit-scrollbar {
+    height: 15px;
+  }
+
+  .preview-boxes::-webkit-scrollbar-track {
+    background: gray;
+    border-radius: 20px;
+  }
+
+  .preview-boxes::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 20px;
   }
 }
