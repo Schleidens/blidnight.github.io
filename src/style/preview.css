@@ -1,0 +1,49 @@
+section.preview {
+  background-image: url(../img/WEB/fond-p1.png);
+  background-repeat: repeat-x;
+  background-size: cover;
+}
+
+section.preview {
+  overflow: hidden;
+  position: relative;
+  padding: 20px 80px;
+  min-height: 200px;
+}
+
+section.preview .container h2 {
+  font-size: 24px;
+  color: #0185ff;
+  text-align: center;
+}
+
+.preview-boxes {
+  margin-top: 10px;
+  height: 160px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  padding-bottom: 30px;
+}
+
+.preview-boxes::-webkit-scrollbar {
+  height: 15px;
+}
+
+.preview-boxes::-webkit-scrollbar-track {
+  background: gray;
+  border-radius: 20px;
+}
+
+.preview-boxes::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 20px;
+}
+
+.preview-box {
+  width: 160px;
+  display: inline-block;
+  height: 160px;
+  background-color: #0185ff;
+  margin-right: 10px;
+}
