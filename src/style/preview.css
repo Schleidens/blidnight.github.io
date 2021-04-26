@@ -7,11 +7,12 @@ section.preview {
 section.preview {
   overflow: hidden;
   position: relative;
-  padding: 20px 80px;
+  padding: 0px 20px;
   min-height: 200px;
 }
 
 section.preview .container h2 {
+  margin-top: 10px;
   font-size: 24px;
   color: #0185ff;
   text-align: center;
@@ -24,6 +25,14 @@ section.preview .container h2 {
   overflow-y: hidden;
   white-space: nowrap;
   padding-bottom: 30px;
+}
+
+.preview-box {
+  width: 160px;
+  display: inline-block;
+  height: 160px;
+  background-color: #0185ff;
+  margin-right: 10px;
 }
 
 .preview-boxes::-webkit-scrollbar {
@@ -40,10 +49,38 @@ section.preview .container h2 {
   border-radius: 20px;
 }
 
-.preview-box {
-  width: 160px;
-  display: inline-block;
-  height: 160px;
-  background-color: #0185ff;
-  margin-right: 10px;
+@media screen and (min-width: 280px) {
+  .preview-box {
+    width: 80px;
+    height: 80px;
+  }
+  .preview-boxes {
+    height: 80px;
+  }
+}
+
+@media screen and (min-width: 520px) {
+  .preview-box {
+    width: 120px;
+    height: 120px;
+  }
+  .preview-boxes {
+    height: 120px;
+  }
+}
+
+@media screen and (min-width: 680px) {
+  section.preview {
+    padding: 0px 60px;
+  }
+}
+
+@media screen and (min-width: 820px) {
+  .preview-box {
+    width: 160px;
+    height: 160px;
+  }
+  .preview-boxes {
+    height: 160px;
+  }
 }
