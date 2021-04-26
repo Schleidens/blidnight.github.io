@@ -1,0 +1,80 @@
+What is CSS ?
+CSS stands for cascading style sheet, it's a language that is used in hand by hand
+with HTML to style the content structured using him (HTML).
+
+So the purpose of the CSS is to style content structured by html, so we have to get ride
+of any style we made using HTML.
+
+There are three ways to write and use css in an HTML page :
+- The first one is Inline css, where we put css properties on an style attribute directly on
+the html element.
+- Embedded css, where we write our css rules inside a style html element inside the head element
+of our page
+- And finaly external css, where css rules are defined inside an other separated files in .css format
+and we import it inside our HTML file using the "link" html element which took two parameters : rel, and
+href which is the relative path to our css files (or the external path both work).
+
+A css rule has three parts : the selector, the property and the value of that property.
+We can write how much property we want inside our rules, we only need to separate them
+by a semi-colon.
+
+CSS comments are use to write indication for the developper, they aren't interpreted by the 
+browser as instruction.
+
+HTML tag has what we call inheritance style, for example if we define a color property for
+an html element, his child will inherit that property as well as long as we didn't redefine
+that property on the child.
+
+WORKING WITH TEXT
+
+font-family : The font family property is used to define a font that the HTML element will
+use for his text. Basically fonts are defined two ways, by font-name and by font-category
+. There are three categories of font : serif, sans-serif, and monospace, and around 7 web
+safe fonts.
+
+font-size : font size is used to define the font police size, it takes as value length values
+such as px, em, cm, mm, ex etc.
+
+font-style : That property can take as value, italic, oblique and normal.
+
+font-weight : That property can be used by weight name such as : lighter, normal, bold, bolder
+or numerical values from 100 to 900, where 400 is normal and 700 is bold, 100 lighter and 900 bolder.
+
+font-variant : it can takes as value normal or small-caps
+
+color : is used to define an html color for his font text, it can take hexadecimal string value,
+rgb, and rgba value and hsl, and hsla (hue, saturation, and light)
+
+Hue is in degree where 0 degree(360 degree) stand for red, 120 for green, and 240 for blue.
+saturation and light are in percentage
+
+- left, center, right, justify
+
+- Vertical align : that property work different ways depending on the html element it's apply on
+on a table cell it can take three values : top, middle, bottom
+
+and on other elements, it can take these values : baseline, sub, super, or length value(or percentage)
+
+to make top middle bottom work with div elements we have to, make use display : inline-table, and display : table-cell to make it works
+
+- text-decoration : none, inherit, underline, line-through, overline
+
+- text-indent : specify how much space should be left in the beginning of a text;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
